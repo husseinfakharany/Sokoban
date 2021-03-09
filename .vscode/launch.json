@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Essai_Scanner_V1",
+            "request": "launch",
+            "mainClass": "Essai_Scanner_V1",
+            "projectName": "Sokoban_dc971bf4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Essai_Scanner",
+            "request": "launch",
+            "mainClass": "Essai_Scanner",
+            "projectName": "Sokoban_dc971bf4"
+        }
+    ]
+}
