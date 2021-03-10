@@ -1,0 +1,58 @@
+public class TestSequence {
+    public static void main(String [] args){
+        Sequence s = new SequenceTableau();
+        
+        s.insereTete(3);
+        s.insereTete(2);
+        s.insereTete(4);
+        s.insereTete(5);
+        s.insereTete(6);
+        s.insereTete(3);
+        s.insereTete(2);
+        System.out.println(s.toString());
+        System.out.println();
+        s.insereTete(4);
+        s.insereTete(5);
+        s.insereTete(6);
+        s.insereQueue(10);
+        s.insereQueue(11);
+        s.insereQueue(10);
+        s.insereQueue(11);
+        s.insereQueue(10);
+        s.insereQueue(11);
+        System.out.println(s.toString());
+        System.out.println();
+        System.out.println(s.extraitTete());
+        System.out.println(s.toString());
+        System.out.println(s.estVide());
+        System.out.println();
+        System.out.println(s.extraitTete());
+        System.out.println(s.toString());
+        System.out.println(s.estVide());
+        System.out.println();
+        System.out.println(s.extraitTete());
+        System.out.println(s.toString());
+        System.out.println(s.estVide());
+        System.out.println();
+        System.out.println(s.extraitTete());
+        System.out.println(s.toString());
+        System.out.println(s.estVide());
+        System.out.println();
+        System.out.println(s.extraitTete());
+        System.out.println(s.toString());
+        System.out.println(s.estVide());
+        System.out.println();
+        System.out.println(s.extraitTete());
+        System.out.println(s.toString());
+        System.out.println(s.estVide());
+        System.out.println();
+        System.out.println(s.extraitTete());
+        System.out.println(s.toString());
+        System.out.println(s.estVide());
+        System.out.println();
+        System.out.println(s.extraitTete());
+        System.out.println(s.toString());
+        System.out.println(s.estVide());
+        System.out.println();
+    }
+}
