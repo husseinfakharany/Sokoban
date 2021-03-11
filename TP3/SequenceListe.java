@@ -1,3 +1,4 @@
+package TP3;
 /*
  * Sokoban - Encore une nouvelle version (à but pédagogique) du célèbre jeu
  * Copyright (C) 2018 Guillaume Huard
@@ -80,5 +81,11 @@ class SequenceListe implements Sequence {
 		}
 		resultat += "]";
 		return resultat;
+	}
+
+	@Override
+	public Iterateur iterateur(){
+		Iterateur it = new IterateurListe(this);
+		return it; 
 	}
 }
